@@ -1,6 +1,5 @@
 import { Request, Response } from "express"
 import { supabase } from "../config/db"
-import { Task } from "../types/task"
 
 export class TaskController {
 	async createTask(req: Request, res: Response): Promise<void> {
